@@ -17,18 +17,5 @@ This project implements face recognition using the `face_recognition` library in
   - `numpy`
 
 You can install the dependencies using:
-`bash`
-`pip install face_recognition opencv-python numpy`
-
-## Project Structure
-.
-├── known/              # Folder containing images of known people
-│   ├── elon.jpg        # Example image for Elon Musk
-│   ├── bill.jpg        # Example image for Bill Gates
-│   └── obama.jpg       # Example image for Barack Obama
-├── unknown/            # Folder containing images of unknown people
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   └── 3.jpg
-├── face_recognition.py  # Main Python script to run the face recognition
-├── README.md           # Project README file
+```bash
+pip install face_recognition opencv-python numpy
